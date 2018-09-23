@@ -2,10 +2,10 @@
                                    
 # 2-4 Question:
                                    
-*Exercise 2.4 Using the variable totalwgt_lb, investigate whether first babies
+Exercise 2.4 Using the variable totalwgt_lb, investigate whether first babies
 are lighter or heavier than others. Compute Cohen’s d to quantify the
 difference between the groups. How does it compare to the difference in
-pregnancy length?  *                                 
+pregnancy length?                               
 
 # 2-4 Solution:
                                    
@@ -27,7 +27,7 @@ def CohenEffectSize(group1, group2):
                                    
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)                                   
 
-# The effect is is negative, which means that the first group is a little lighter than the others group. This makes sense since the first child pregnancy length is shorter than for later children, giving the baby less time to grow. The effect is quite small as well.
+__The effect is is negative, which means that the first group is a little lighter than the others group. This makes sense since the first child pregnancy length is shorter than for later children, giving the baby less time to grow. The effect is quite small as well.__
                                    
                                    
                                    
