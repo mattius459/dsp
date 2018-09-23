@@ -28,4 +28,4 @@ thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Random variate', ylabel='CDF')
 
 
-__When looking at the PMF distrubution, the slices tend to lead the viewer to believe a non-random distribution. When the CDF is plotted, it becomes more apparent that the distribution is relatively even.__
+__When looking at the PMF distrubution, the slices tend to lead the viewer to believe a non-random distribution. When the CDF is plotted, it becomes more apparent that the distribution is relatively even. There seems to be a small concentration of occurences around the .5 mark, but that may be due to the smaller n=1000 inputs__
