@@ -13,7 +13,7 @@ Plot the actual and biased distributions, and compute their means.
 # 3.1 Solution
 
 
-resp = nsfg.ReadFemResp()
+`resp = nsfg.ReadFemResp()
 
 pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 thinkplot.Pmf(pmf)
@@ -25,6 +25,6 @@ thinkplot.Pmfs([pmf, biased])
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 pmf.Mean()
-biased.Mean()
+biased.Mean()`
 
 __The true mean and the biased mean are very different. It is important to look out for potential sources of bias in data sets in order to present an actual picture of what is going on.__
