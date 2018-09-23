@@ -14,7 +14,8 @@ pregnancy length?
 
 `others_weight = others.totalwgt_lb.mean()`
 
-`def CohenEffectSize(group1, group2):
+`
+def CohenEffectSize(group1, group2):
 
   diff = group1.mean() - group2.mean()
   
