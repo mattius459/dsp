@@ -97,7 +97,9 @@ P(H/E) = 300/1020 or 29.4%!
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I watched a good amount about this, and I could spout of several common phrases used in this comparison, but I really don't get the difference quite yet.
+
+To my understanding, in most situations Bayesian and Frequentist approaches yield the exact same results. However in some cases they differ. The difference between the two seems to revolve around assumptions which Bayesians take for granted while Frequentists do not. Bayesians may look at a number of outcomes and take for granted the ratio of behavior of those outcomes as static, whereas Frequentists would take the ratio of prior behavior into consideration but not take it as a certainty.
 
 ---
 
